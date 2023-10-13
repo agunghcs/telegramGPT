@@ -13,7 +13,7 @@ from aiogram import Bot, Dispatcher, executor, types
 bot = Bot(token='6641221916:AAFu7q2BSiiqIp6VBGcyMt1TOaGERxLRYh0')
 dp = Dispatcher(bot)
 
-api_key = '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' # https://platform.openai.com/accoun>
+api_key = "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" # https://platform.openai.com/accoun>
 openai.api_key = api_key
 
 
