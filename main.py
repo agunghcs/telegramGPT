@@ -1,4 +1,4 @@
-"""
+""
 This is a telegram chat bot with ChatGPT under the hood!
 
 1. Paste your Telegram Bot Token and ChatGPT API Key
@@ -13,7 +13,7 @@ from aiogram import Bot, Dispatcher, executor, types
 bot = Bot(token='6641221916:AAFu7q2BSiiqIp6VBGcyMt1TOaGERxLRYh0')
 dp = Dispatcher(bot)
 
-api_key = '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' # https://platform.openai.com/accoun>
+api_key = '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' # https://platform.openai.com/accoun>
 openai.api_key = api_key
 
 
