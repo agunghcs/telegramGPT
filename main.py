@@ -10,10 +10,10 @@ import openai
 from aiogram import Bot, Dispatcher, executor, types
 
 # create bot with @BotFather and copy Token
-bot = Bot(token='6344110183:AAE0m-jQrySeXXPcGpa1blhLRCq-7qfYY-w')
+bot = Bot(token='6641221916:AAFu7q2BSiiqIp6VBGcyMt1TOaGERxLRYh0')
 dp = Dispatcher(bot)
 
-api_key = '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' # https://platform.openai.com/account/api-keys
+api_key = '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' # https://platform.openai.com/accoun>
 openai.api_key = api_key
 
 
@@ -25,7 +25,7 @@ async def welcome(message: types.Message):
 @dp.message_handler()
 async def gpt(message: types.Message):
     response = openai.Completion.create(
-        model="text-davinci-003", # text-davinci-003 text-ada-001 -> select model to use 
+        model="text-davinci-003", # text-davinci-003 text-ada-001 -> select model to use
         prompt=message.text,
         temperature=0.5,
         max_tokens=100,
